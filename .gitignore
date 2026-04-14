@@ -19,3 +19,6 @@ usage_stats.csv.tmp
 .DS_Store
 Thumbs.db
 nul
+
+# local compose env
+.env

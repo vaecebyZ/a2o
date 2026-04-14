@@ -1,0 +1,9 @@
+services:
+  a2o:
+    image: vaeceby2/a2o
+    container_name: vaeceby2-a2o
+    ports:
+      - "${A2O_HOST_PORT:-11001}:11001"
+    env_file:
+      - ./.env
+    restart: unless-stopped

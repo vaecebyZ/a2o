@@ -1,0 +1,7 @@
+.git
+.github
+*.md
+*.ps1
+a2o
+a2o.exe
+usage_stats.csv
